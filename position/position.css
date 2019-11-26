@@ -1,0 +1,42 @@
+body {
+    height: 1000px;
+}
+div div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+.container{
+    background-color: cyan;
+    width: 300px;
+    position: relative;
+    left: 30%;
+}
+
+div div:first-child{
+    background-color: blueviolet;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    
+}
+div div:nth-child(3){
+    background-color: deeppink;
+    position: sticky;
+    top: 40%;
+    left: 50%;
+}
+div div:nth-child(2){
+    background-color: darkorange;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+}
+div div:last-child{
+    background-color: chocolate;
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+}
